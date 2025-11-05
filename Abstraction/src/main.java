@@ -1,6 +1,6 @@
 public class main {
     public static void main(String[] args) {
-        Dog dog = new Dog("Buddy", 3, "Golden Retriever", "Big France King");
+        Dog dog = new Dog("UG Buddy", 3, "Golden Retriever", "Big France King");
         Cat cat = new Cat("Whiskers", 2, "Black");
         Bird bird = new Bird("Tweety", 1, true, "Pinky Canan");
         Bird penguin = new Bird("Pingu", 4, false, "Penuina King");
