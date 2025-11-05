@@ -1,9 +1,9 @@
 public class Bird extends Animal {
-    private boolean canFly;
+    private boolean CanFly;
 
     public Bird(String name, int age, boolean canFly, String type) {
         super(name, age, type);
-        this.canFly = canFly;
+        this.CanFly = canFly;
     }
 
     @Override
@@ -12,7 +12,7 @@ public class Bird extends Animal {
     }
 
     public void fly() {
-        if (canFly) {
+        if (CanFly) {
             System.out.println(name + " is flying high!");
         } else {
             System.out.println(name + " cannot fly");
