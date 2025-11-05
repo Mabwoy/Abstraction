@@ -1,9 +1,11 @@
 public class Dog extends Animal {
     private String breed;
+    private int legs;
 
     public Dog(String name, int age, String breed, String type) {
         super(name, age,type);
         this.breed = breed;
+        this.legs =legs;
     }
 
     @Override
